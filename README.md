@@ -20,3 +20,14 @@ where 1 is 0001 in binary and 5 is 0101 in binary.
 
 
 ![image](https://github.com/kanishk1605/BCD_Adder/assets/105859363/29438035-ce0d-4d2b-adb7-58034b58fbaf)
+
+
+We are adding “0110” (=6) only to the second half of the table. The conditions are:
+
+1. If C’ = 1 (Satisfies 16-19)
+2. If S3′.S2′ = 1 (Satisfies 12-15)
+3. If S3′.S1′ = 1 (Satisfies 10 and 11)
+   
+So, our logic is
+
+C' + S3'.S2' + S3'.S1' = 1
